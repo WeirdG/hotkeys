@@ -545,6 +545,29 @@ kbd[data-tip] {
   color: var(--color-text-link);
 }
 
+.bmc-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  background: #ff813f;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: var(--text-sm);
+  transition: all var(--transition-fast);
+}
+
+.bmc-link:hover {
+  background: #e67235;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.bmc-link svg {
+  flex-shrink: 0;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

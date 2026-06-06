@@ -1,6 +1,6 @@
 // Category Navigation Component
 
-import { CATEGORIES, getProductsByCategory } from '../data.js?v=12';
+import { CATEGORIES, getProductsByCategory } from '../data.js?v=13';
 
 export function createCategoryNav({ onCategoryChange }) {
   const container = document.getElementById('categoryNav');

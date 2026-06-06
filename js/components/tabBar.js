@@ -1,6 +1,6 @@
 // Product Tabs Component
 
-import { getProductsByCategory } from '../data.js?v=12';
+import { getProductsByCategory } from '../data.js?v=13';
 import { getProductIcon } from './productIcons.js';
 
 export function createProductTabs({ onProductChange }) {

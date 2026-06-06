@@ -554,52 +554,6 @@ kbd[data-tip] {
   font-size: var(--text-xs);
 }
 
-.footer-gear {
-  color: var(--color-text-secondary);
-}
-
-.footer-ad {
-  margin-top: var(--space-4);
-  min-height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* CTA Banner */
-.cta-banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-2);
-  padding: var(--space-2) var(--space-4);
-  background: var(--color-accent-muted);
-  border-bottom: 1px solid var(--color-border-default);
-  font-size: var(--text-xs);
-  color: var(--color-text-secondary);
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.cta-banner svg {
-  flex-shrink: 0;
-  vertical-align: -2px;
-}
-
-.cta-banner strong {
-  color: var(--color-text-primary);
-}
-
-.cta-link {
-  font-weight: 600;
-  color: var(--color-accent) !important;
-  white-space: nowrap;
-}
-
-.cta-link:hover {
-  text-decoration: underline;
-}
-
 /* Buy Me a Coffee — header pill button */
 .bmc-btn {
   display: inline-flex;

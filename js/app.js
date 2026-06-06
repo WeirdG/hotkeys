@@ -120,7 +120,7 @@ class App {
         let newIdx = e.key === 'ArrowRight' ? currentIdx + 1 : currentIdx - 1;
         if (newIdx >= siblings.length) {
           // Move to next category
-          const catIds = Object.keys({ os: true, utility: true, productivity: true });
+          const catIds = Object.keys({ os: true, utility: true, productivity: true, browsers: true });
           const catIdx = catIds.indexOf(currentProduct.category);
           if (catIdx < catIds.length - 1) {
             const nextProducts = getProductsByCategory(catIds[catIdx + 1]);
@@ -142,7 +142,7 @@ class App {
           return;
         }
         if (newIdx < 0) {
-          const catIds = Object.keys({ os: true, utility: true, productivity: true });
+          const catIds = Object.keys({ os: true, utility: true, productivity: true, browsers: true });
           const catIdx = catIds.indexOf(currentProduct.category);
           if (catIdx > 0) {
             const prevProducts = getProductsByCategory(catIds[catIdx - 1]);

@@ -19,6 +19,12 @@ export const CATEGORIES = {
     name: 'Productivity Software',
     shortName: 'Productivity',
     icon: 'briefcase'
+  },
+  browsers: {
+    id: 'browsers',
+    name: 'Web Browsers',
+    shortName: 'Browsers',
+    icon: 'globe'
   }
 };
 
@@ -571,6 +577,345 @@ export const products = [
         { action: 'Step Out', windows: 'Shift+F11', mac: 'Shift+F11' },
         { action: 'Command Palette', windows: 'Ctrl+Shift+P or F1', mac: 'Cmd+Shift+P or F1' },
         { action: 'Preview Markdown', windows: 'Ctrl+Shift+V', mac: 'Cmd+Shift+V' }
+      ]
+    }
+  },
+
+  // ============ WEB BROWSERS ============
+  {
+    id: 'chrome',
+    name: 'Google Chrome',
+    description: "Google's fast, secure web browser with a vast extension ecosystem, available across all major platforms.",
+    os: ['Windows', 'macOS', 'Linux'],
+    category: 'browsers',
+    color: '#4285f4',
+    shortcuts: {
+      'Tab & Window Management': [
+        { action: 'New Tab', windows: 'Ctrl+T', mac: 'Cmd+T' },
+        { action: 'Reopen Closed Tab', windows: 'Ctrl+Shift+T', mac: 'Cmd+Shift+T' },
+        { action: 'Close Tab', windows: 'Ctrl+W', mac: 'Cmd+W' },
+        { action: 'Switch to Tab (1-8)', windows: 'Ctrl+1 through Ctrl+8', mac: 'Cmd+1 through Cmd+8' },
+        { action: 'Go to Last Tab', windows: 'Ctrl+9', mac: 'Cmd+9' },
+        { action: 'Next Tab', windows: 'Ctrl+Tab', mac: 'Cmd+Opt+Right' },
+        { action: 'Previous Tab', windows: 'Ctrl+Shift+Tab', mac: 'Cmd+Opt+Left' },
+        { action: 'New Window', windows: 'Ctrl+N', mac: 'Cmd+N' },
+        { action: 'New Incognito Window', windows: 'Ctrl+Shift+N', mac: 'Cmd+Shift+N' },
+        { action: 'Close Window', windows: 'Ctrl+Shift+W', mac: 'Cmd+Shift+W' },
+        { action: 'Pin/Unpin Tab', windows: 'Right-click tab > Pin', mac: 'Right-click tab > Pin' },
+        { action: 'Move Tab Left/Right', windows: 'Ctrl+Shift+PgUp/PgDn', mac: 'Cmd+Shift+Left/Right' }
+      ],
+      'Navigation': [
+        { action: 'Back', windows: 'Alt+Left', mac: 'Cmd+[ or Cmd+Left' },
+        { action: 'Forward', windows: 'Alt+Right', mac: 'Cmd+] or Cmd+Right' },
+        { action: 'Reload', windows: 'Ctrl+R or F5', mac: 'Cmd+R' },
+        { action: 'Hard Reload (no cache)', windows: 'Ctrl+Shift+R', mac: 'Cmd+Shift+R' },
+        { action: 'Stop Loading', windows: 'Esc', mac: 'Esc' },
+        { action: 'Go to Address Bar', windows: 'Ctrl+L or Alt+D', mac: 'Cmd+L' },
+        { action: 'Open Homepage', windows: 'Alt+Home', mac: 'Cmd+Shift+H' }
+      ],
+      'Page & Content': [
+        { action: 'Find on Page', windows: 'Ctrl+F', mac: 'Cmd+F' },
+        { action: 'Find Next', windows: 'Ctrl+G', mac: 'Cmd+G' },
+        { action: 'Find Previous', windows: 'Ctrl+Shift+G', mac: 'Cmd+Shift+G' },
+        { action: 'Zoom In', windows: 'Ctrl++', mac: 'Cmd++' },
+        { action: 'Zoom Out', windows: 'Ctrl+-', mac: 'Cmd+-' },
+        { action: 'Reset Zoom', windows: 'Ctrl+0', mac: 'Cmd+0' },
+        { action: 'Full Screen', windows: 'F11', mac: 'Ctrl+Cmd+F' },
+        { action: 'Print', windows: 'Ctrl+P', mac: 'Cmd+P' },
+        { action: 'Save Page As', windows: 'Ctrl+S', mac: 'Cmd+S' },
+        { action: 'Scroll Down a Screen', windows: 'Spacebar', mac: 'Spacebar' },
+        { action: 'Scroll Up a Screen', windows: 'Shift+Spacebar', mac: 'Shift+Spacebar' },
+        { action: 'Go to Top of Page', windows: 'Home', mac: 'Cmd+Up' },
+        { action: 'Go to Bottom of Page', windows: 'End', mac: 'Cmd+Down' }
+      ],
+      'Bookmarks & History': [
+        { action: 'Bookmark This Page', windows: 'Ctrl+D', mac: 'Cmd+D' },
+        { action: 'Bookmark All Open Tabs', windows: 'Ctrl+Shift+D', mac: 'Cmd+Shift+D' },
+        { action: 'Open Bookmarks Manager', windows: 'Ctrl+Shift+O', mac: 'Cmd+Opt+B' },
+        { action: 'Toggle Bookmarks Bar', windows: 'Ctrl+Shift+B', mac: 'Cmd+Shift+B' },
+        { action: 'Open History', windows: 'Ctrl+H', mac: 'Cmd+Y' },
+        { action: 'Open Downloads', windows: 'Ctrl+J', mac: 'Cmd+Shift+J' },
+        { action: 'Clear Browsing Data', windows: 'Ctrl+Shift+Delete', mac: 'Cmd+Shift+Delete' }
+      ],
+      'Developer Tools': [
+        { action: 'Toggle DevTools', windows: 'Ctrl+Shift+I or F12', mac: 'Cmd+Opt+I' },
+        { action: 'DevTools Console', windows: 'Ctrl+Shift+J', mac: 'Cmd+Opt+J' },
+        { action: 'Inspect Element', windows: 'Ctrl+Shift+C', mac: 'Cmd+Shift+C' },
+        { action: 'View Page Source', windows: 'Ctrl+U', mac: 'Cmd+Opt+U' },
+        { action: 'Task Manager (Chrome)', windows: 'Shift+Esc', mac: 'Shift+Esc' },
+        { action: 'Open Chrome Menu', windows: 'Alt+F or Alt+E', mac: 'Cmd+Shift+M' }
+      ]
+    }
+  },
+  {
+    id: 'edge',
+    name: 'Microsoft Edge',
+    description: "Microsoft's Chromium-based browser with deep Windows integration, AI-powered Copilot sidebar, and enterprise features.",
+    os: ['Windows', 'macOS'],
+    category: 'browsers',
+    color: '#0078d4',
+    shortcuts: {
+      'Tab & Window Management': [
+        { action: 'New Tab', windows: 'Ctrl+T', mac: 'Cmd+T' },
+        { action: 'Reopen Closed Tab', windows: 'Ctrl+Shift+T', mac: 'Cmd+Shift+T' },
+        { action: 'Close Tab', windows: 'Ctrl+W', mac: 'Cmd+W' },
+        { action: 'Switch to Tab (1-8)', windows: 'Ctrl+1 through Ctrl+8', mac: 'Cmd+1 through Cmd+8' },
+        { action: 'Go to Last Tab', windows: 'Ctrl+9', mac: 'Cmd+9' },
+        { action: 'Next Tab', windows: 'Ctrl+Tab', mac: 'Cmd+Opt+Right' },
+        { action: 'Previous Tab', windows: 'Ctrl+Shift+Tab', mac: 'Cmd+Opt+Left' },
+        { action: 'New Window', windows: 'Ctrl+N', mac: 'Cmd+N' },
+        { action: 'New InPrivate Window', windows: 'Ctrl+Shift+N', mac: 'Cmd+Shift+N' },
+        { action: 'Close Window', windows: 'Ctrl+Shift+W', mac: 'Cmd+Shift+W' },
+        { action: 'Pin/Unpin Tab', windows: 'Right-click tab > Pin tab', mac: 'Right-click tab > Pin tab' },
+        { action: 'Mute/Unmute Tab', windows: 'Ctrl+M (on active tab)', mac: 'Cmd+M' }
+      ],
+      'Navigation': [
+        { action: 'Back', windows: 'Alt+Left', mac: 'Cmd+[' },
+        { action: 'Forward', windows: 'Alt+Right', mac: 'Cmd+]' },
+        { action: 'Reload', windows: 'Ctrl+R or F5', mac: 'Cmd+R' },
+        { action: 'Hard Reload (no cache)', windows: 'Ctrl+Shift+R', mac: 'Cmd+Shift+R' },
+        { action: 'Stop Loading', windows: 'Esc', mac: 'Esc' },
+        { action: 'Go to Address Bar', windows: 'Ctrl+L or Alt+D', mac: 'Cmd+L' },
+        { action: 'Open Homepage', windows: 'Alt+Home', mac: 'Cmd+Shift+H' }
+      ],
+      'Page & Content': [
+        { action: 'Find on Page', windows: 'Ctrl+F', mac: 'Cmd+F' },
+        { action: 'Find Next', windows: 'Ctrl+G', mac: 'Cmd+G' },
+        { action: 'Find Previous', windows: 'Ctrl+Shift+G', mac: 'Cmd+Shift+G' },
+        { action: 'Zoom In', windows: 'Ctrl++', mac: 'Cmd++' },
+        { action: 'Zoom Out', windows: 'Ctrl+-', mac: 'Cmd+-' },
+        { action: 'Reset Zoom', windows: 'Ctrl+0', mac: 'Cmd+0' },
+        { action: 'Full Screen', windows: 'F11', mac: 'Ctrl+Cmd+F' },
+        { action: 'Print', windows: 'Ctrl+P', mac: 'Cmd+P' },
+        { action: 'Save Page As', windows: 'Ctrl+S', mac: 'Cmd+S' }
+      ],
+      'Collections & Features': [
+        { action: 'Add to Collections', windows: 'Ctrl+Shift+Y', mac: 'Cmd+Shift+Y' },
+        { action: 'Open Copilot Sidebar', windows: 'Ctrl+Shift+.', mac: 'Cmd+Shift+.' },
+        { action: 'Bookmark This Page', windows: 'Ctrl+D', mac: 'Cmd+D' },
+        { action: 'Open Favorites', windows: 'Ctrl+Shift+O', mac: 'Cmd+Opt+B' },
+        { action: 'Toggle Favorites Bar', windows: 'Ctrl+Shift+B', mac: 'Cmd+Shift+B' },
+        { action: 'Open History', windows: 'Ctrl+H', mac: 'Cmd+Y' },
+        { action: 'Open Downloads', windows: 'Ctrl+J', mac: 'Cmd+Shift+J' },
+        { action: 'Clear Browsing Data', windows: 'Ctrl+Shift+Delete', mac: 'Cmd+Shift+Delete' },
+        { action: 'Web Capture (Screenshot)', windows: 'Ctrl+Shift+S', mac: 'Cmd+Shift+S' },
+        { action: 'Read Aloud', windows: 'Ctrl+Shift+U', mac: 'Cmd+Shift+U' }
+      ],
+      'Developer Tools': [
+        { action: 'Toggle DevTools', windows: 'Ctrl+Shift+I or F12', mac: 'Cmd+Opt+I' },
+        { action: 'DevTools Console', windows: 'Ctrl+Shift+J', mac: 'Cmd+Opt+J' },
+        { action: 'Inspect Element', windows: 'Ctrl+Shift+C', mac: 'Cmd+Shift+C' },
+        { action: 'View Page Source', windows: 'Ctrl+U', mac: 'Cmd+Opt+U' },
+        { action: 'Browser Task Manager', windows: 'Shift+Esc', mac: 'Shift+Esc' }
+      ]
+    }
+  },
+  {
+    id: 'firefox',
+    name: 'Mozilla Firefox',
+    description: "Privacy-respecting, open-source web browser by Mozilla with powerful developer tools and extensive customization.",
+    os: ['Windows', 'macOS', 'Linux'],
+    category: 'browsers',
+    color: '#ff6611',
+    shortcuts: {
+      'Tab & Window Management': [
+        { action: 'New Tab', windows: 'Ctrl+T', mac: 'Cmd+T' },
+        { action: 'Reopen Closed Tab', windows: 'Ctrl+Shift+T', mac: 'Cmd+Shift+T' },
+        { action: 'Close Tab', windows: 'Ctrl+W', mac: 'Cmd+W' },
+        { action: 'Switch to Tab (1-8)', windows: 'Ctrl+1 through Ctrl+8', mac: 'Cmd+1 through Cmd+8' },
+        { action: 'Go to Last Tab', windows: 'Ctrl+9', mac: 'Cmd+9' },
+        { action: 'Next Tab', windows: 'Ctrl+Tab', mac: 'Ctrl+Tab' },
+        { action: 'Previous Tab', windows: 'Ctrl+Shift+Tab', mac: 'Ctrl+Shift+Tab' },
+        { action: 'New Window', windows: 'Ctrl+N', mac: 'Cmd+N' },
+        { action: 'New Private Window', windows: 'Ctrl+Shift+P', mac: 'Cmd+Shift+P' },
+        { action: 'Close Window', windows: 'Ctrl+Shift+W', mac: 'Cmd+Shift+W' },
+        { action: 'Pin/Unpin Tab', windows: 'Right-click tab > Pin Tab', mac: 'Right-click tab > Pin Tab' },
+        { action: 'Mute/Unmute Tab', windows: 'Ctrl+M', mac: 'Ctrl+M' }
+      ],
+      'Navigation': [
+        { action: 'Back', windows: 'Alt+Left', mac: 'Cmd+Left' },
+        { action: 'Forward', windows: 'Alt+Right', mac: 'Cmd+Right' },
+        { action: 'Reload', windows: 'Ctrl+R or F5', mac: 'Cmd+R' },
+        { action: 'Hard Reload (no cache)', windows: 'Ctrl+Shift+R', mac: 'Cmd+Shift+R' },
+        { action: 'Stop Loading', windows: 'Esc', mac: 'Esc' },
+        { action: 'Go to Address Bar', windows: 'Ctrl+L or Alt+D', mac: 'Cmd+L' },
+        { action: 'Open Homepage', windows: 'Alt+Home', mac: 'Opt+Home' }
+      ],
+      'Page & Content': [
+        { action: 'Find on Page', windows: 'Ctrl+F', mac: 'Cmd+F' },
+        { action: 'Find Again', windows: 'Ctrl+G or F3', mac: 'Cmd+G' },
+        { action: 'Quick Find (search links)', windows: "'", mac: "'" },
+        { action: 'Zoom In', windows: 'Ctrl++', mac: 'Cmd++' },
+        { action: 'Zoom Out', windows: 'Ctrl+-', mac: 'Cmd+-' },
+        { action: 'Reset Zoom', windows: 'Ctrl+0', mac: 'Cmd+0' },
+        { action: 'Full Screen', windows: 'F11', mac: 'Cmd+Shift+F' },
+        { action: 'Print', windows: 'Ctrl+P', mac: 'Cmd+P' },
+        { action: 'Save Page As', windows: 'Ctrl+S', mac: 'Cmd+S' },
+        { action: 'Reader View', windows: 'F9', mac: 'Cmd+Opt+R' }
+      ],
+      'Bookmarks & History': [
+        { action: 'Bookmark This Page', windows: 'Ctrl+D', mac: 'Cmd+D' },
+        { action: 'Bookmark All Tabs', windows: 'Ctrl+Shift+D', mac: 'Cmd+Shift+D' },
+        { action: 'Open Library (Bookmarks)', windows: 'Ctrl+Shift+O', mac: 'Cmd+Shift+O' },
+        { action: 'Toggle Bookmarks Toolbar', windows: 'Ctrl+Shift+B', mac: 'Cmd+Shift+B' },
+        { action: 'Open History Sidebar', windows: 'Ctrl+H', mac: 'Cmd+Shift+H' },
+        { action: 'Open Downloads', windows: 'Ctrl+J', mac: 'Cmd+J' },
+        { action: 'Clear Recent History', windows: 'Ctrl+Shift+Delete', mac: 'Cmd+Shift+Delete' }
+      ],
+      'Developer Tools': [
+        { action: 'Toggle DevTools', windows: 'Ctrl+Shift+I or F12', mac: 'Cmd+Opt+I' },
+        { action: 'Web Console', windows: 'Ctrl+Shift+K', mac: 'Cmd+Opt+K' },
+        { action: 'Inspect Element', windows: 'Ctrl+Shift+C', mac: 'Cmd+Opt+C' },
+        { action: 'Debugger', windows: 'Ctrl+Shift+Z', mac: 'Cmd+Opt+Z' },
+        { action: 'View Page Source', windows: 'Ctrl+U', mac: 'Cmd+U' },
+        { action: 'Responsive Design Mode', windows: 'Ctrl+Shift+M', mac: 'Cmd+Opt+M' },
+        { action: 'Page Info', windows: 'Ctrl+I', mac: 'Cmd+I' }
+      ]
+    }
+  },
+  {
+    id: 'opera',
+    name: 'Opera',
+    description: "Chromium-based browser with built-in ad blocker, free VPN, crypto wallet, and sidebar messenger integration.",
+    os: ['Windows', 'macOS', 'Linux'],
+    category: 'browsers',
+    color: '#ff1b2d',
+    shortcuts: {
+      'Tab & Window Management': [
+        { action: 'New Tab', windows: 'Ctrl+T', mac: 'Cmd+T' },
+        { action: 'Reopen Closed Tab', windows: 'Ctrl+Shift+T', mac: 'Cmd+Shift+T' },
+        { action: 'Close Tab', windows: 'Ctrl+W', mac: 'Cmd+W' },
+        { action: 'Switch to Tab (1-8)', windows: 'Ctrl+1 through Ctrl+8', mac: 'Cmd+1 through Cmd+8' },
+        { action: 'Go to Last Tab', windows: 'Ctrl+9', mac: 'Cmd+9' },
+        { action: 'Next Tab', windows: 'Ctrl+Tab', mac: 'Ctrl+Tab' },
+        { action: 'Previous Tab', windows: 'Ctrl+Shift+Tab', mac: 'Ctrl+Shift+Tab' },
+        { action: 'New Window', windows: 'Ctrl+N', mac: 'Cmd+N' },
+        { action: 'New Private Window', windows: 'Ctrl+Shift+N', mac: 'Cmd+Shift+N' },
+        { action: 'Close Window', windows: 'Ctrl+Shift+W', mac: 'Cmd+Shift+W' },
+        { action: 'Duplicate Tab', windows: 'Right-click tab > Duplicate', mac: 'Right-click tab > Duplicate' }
+      ],
+      'Navigation': [
+        { action: 'Back', windows: 'Alt+Left', mac: 'Cmd+Left' },
+        { action: 'Forward', windows: 'Alt+Right', mac: 'Cmd+Right' },
+        { action: 'Reload', windows: 'Ctrl+R or F5', mac: 'Cmd+R' },
+        { action: 'Hard Reload (no cache)', windows: 'Ctrl+Shift+R', mac: 'Cmd+Shift+R' },
+        { action: 'Stop Loading', windows: 'Esc', mac: 'Esc' },
+        { action: 'Go to Address Bar', windows: 'Ctrl+L', mac: 'Cmd+L' }
+      ],
+      'Page & Content': [
+        { action: 'Find on Page', windows: 'Ctrl+F', mac: 'Cmd+F' },
+        { action: 'Find Next', windows: 'Ctrl+G', mac: 'Cmd+G' },
+        { action: 'Find Previous', windows: 'Ctrl+Shift+G', mac: 'Cmd+Shift+G' },
+        { action: 'Zoom In', windows: 'Ctrl++', mac: 'Cmd++' },
+        { action: 'Zoom Out', windows: 'Ctrl+-', mac: 'Cmd+-' },
+        { action: 'Reset Zoom', windows: 'Ctrl+0', mac: 'Cmd+0' },
+        { action: 'Full Screen', windows: 'F11', mac: 'Ctrl+Cmd+F' },
+        { action: 'Print', windows: 'Ctrl+P', mac: 'Cmd+P' },
+        { action: 'Save Page As', windows: 'Ctrl+S', mac: 'Cmd+S' }
+      ],
+      'Opera-Specific Features': [
+        { action: 'Toggle Sidebar', windows: 'Ctrl+Shift+S', mac: 'Cmd+Shift+S' },
+        { action: 'Open Speed Dial', windows: 'Ctrl+Shift+D', mac: 'Cmd+Shift+D' },
+        { action: 'Toggle VPN', windows: 'Click VPN badge in address bar', mac: 'Click VPN badge in address bar' },
+        { action: 'Toggle Ad Blocker', windows: 'Click shield icon in address bar', mac: 'Click shield icon in address bar' },
+        { action: 'Search Tabs', windows: 'Ctrl+Space', mac: 'Cmd+Space' },
+        { action: 'Tab Menu', windows: 'Right-click tab bar', mac: 'Right-click tab bar' },
+        { action: 'Workspaces', windows: 'Sidebar > Workspaces', mac: 'Sidebar > Workspaces' },
+        { action: 'My Flow (send to phone)', windows: 'Click paper plane in sidebar', mac: 'Click paper plane in sidebar' }
+      ],
+      'Bookmarks & History': [
+        { action: 'Bookmark This Page', windows: 'Ctrl+D', mac: 'Cmd+D' },
+        { action: 'Open Bookmarks', windows: 'Ctrl+Shift+O', mac: 'Cmd+Opt+B' },
+        { action: 'Toggle Bookmarks Bar', windows: 'Ctrl+Shift+B', mac: 'Cmd+Shift+B' },
+        { action: 'Open History', windows: 'Ctrl+H', mac: 'Cmd+Shift+H' },
+        { action: 'Open Downloads', windows: 'Ctrl+J', mac: 'Cmd+Shift+J' },
+        { action: 'Clear Browsing Data', windows: 'Ctrl+Shift+Delete', mac: 'Cmd+Shift+Delete' }
+      ],
+      'Developer Tools': [
+        { action: 'Toggle DevTools', windows: 'Ctrl+Shift+I', mac: 'Cmd+Opt+I' },
+        { action: 'DevTools Console', windows: 'Ctrl+Shift+J', mac: 'Cmd+Opt+J' },
+        { action: 'Inspect Element', windows: 'Ctrl+Shift+C', mac: 'Cmd+Shift+C' },
+        { action: 'View Page Source', windows: 'Ctrl+U', mac: 'Cmd+Opt+U' }
+      ]
+    }
+  },
+  {
+    id: 'safari',
+    name: 'Apple Safari',
+    description: "Apple's native web browser for macOS and iOS, optimized for battery life, performance, and Apple ecosystem integration.",
+    os: ['macOS'],
+    category: 'browsers',
+    color: '#0066cc',
+    shortcuts: {
+      'Tab & Window Management': [
+        { action: 'New Tab', mac: 'Cmd+T' },
+        { action: 'Reopen Closed Tab', mac: 'Cmd+Shift+T' },
+        { action: 'Close Tab', mac: 'Cmd+W' },
+        { action: 'Switch to Tab (1-9)', mac: 'Cmd+1 through Cmd+9' },
+        { action: 'Next Tab', mac: 'Ctrl+Tab or Cmd+Shift+Right' },
+        { action: 'Previous Tab', mac: 'Ctrl+Shift+Tab or Cmd+Shift+Left' },
+        { action: 'New Window', mac: 'Cmd+N' },
+        { action: 'New Private Window', mac: 'Cmd+Shift+N' },
+        { action: 'Close Window', mac: 'Cmd+Shift+W' },
+        { action: 'Pin Tab', mac: 'Right-click tab > Pin Tab' },
+        { action: 'Show All Tabs (Overview)', mac: 'Cmd+Shift+\\' },
+        { action: 'Move Tab to New Window', mac: 'Drag tab out of window' }
+      ],
+      'Navigation': [
+        { action: 'Back', mac: 'Cmd+[ or Cmd+Left' },
+        { action: 'Forward', mac: 'Cmd+] or Cmd+Right' },
+        { action: 'Reload', mac: 'Cmd+R' },
+        { action: 'Hard Reload (no cache)', mac: 'Cmd+Opt+R' },
+        { action: 'Stop Loading', mac: 'Esc or Cmd+.' },
+        { action: 'Go to Address Bar', mac: 'Cmd+L' },
+        { action: 'Open Homepage', mac: 'Cmd+Shift+H' },
+        { action: 'Quick Website Search', mac: 'Cmd+Opt+F' }
+      ],
+      'Page & Content': [
+        { action: 'Find on Page', mac: 'Cmd+F' },
+        { action: 'Find Next', mac: 'Cmd+G' },
+        { action: 'Find Previous', mac: 'Cmd+Shift+G' },
+        { action: 'Zoom In', mac: 'Cmd++' },
+        { action: 'Zoom Out', mac: 'Cmd+-' },
+        { action: 'Actual Size', mac: 'Cmd+0' },
+        { action: 'Full Screen', mac: 'Ctrl+Cmd+F' },
+        { action: 'Print', mac: 'Cmd+P' },
+        { action: 'Save Page As', mac: 'Cmd+S' },
+        { action: 'Enter Reader Mode', mac: 'Cmd+Shift+R' },
+        { action: 'Show/Hide Status Bar', mac: 'Cmd+/' },
+        { action: 'Scroll Page Down', mac: 'Spacebar' }
+      ],
+      'Bookmarks & History': [
+        { action: 'Add Bookmark', mac: 'Cmd+D' },
+        { action: 'Add to Reading List', mac: 'Cmd+Shift+D' },
+        { action: 'Show Bookmarks Sidebar', mac: 'Ctrl+Cmd+1' },
+        { action: 'Show Reading List Sidebar', mac: 'Ctrl+Cmd+2' },
+        { action: 'Toggle Bookmarks Bar', mac: 'Cmd+Shift+B' },
+        { action: 'Edit Bookmarks', mac: 'Cmd+Opt+B' },
+        { action: 'Show History', mac: 'Cmd+Y' },
+        { action: 'Show Downloads', mac: 'Cmd+Opt+L' },
+        { action: 'Clear History', mac: 'Cmd+Shift+Delete' },
+        { action: 'Add Link to Bookmarks', mac: 'Drag URL to Bookmarks Bar' }
+      ],
+      'Developer & Advanced': [
+        { action: 'Toggle Web Inspector', mac: 'Cmd+Opt+I' },
+        { action: 'JavaScript Console', mac: 'Cmd+Opt+C' },
+        { action: 'Toggle Responsive Design Mode', mac: 'Cmd+Opt+R' },
+        { action: 'View Page Source', mac: 'Cmd+Opt+U' },
+        { action: 'Show Page Resources', mac: 'Cmd+Opt+A' },
+        { action: 'Empty Caches', mac: 'Cmd+Opt+E' },
+        { action: 'Show/Hide Toolbar', mac: 'Cmd+Shift+\\' },
+        { action: 'Show/Hide Tab Bar', mac: 'Cmd+Shift+T' },
+        { action: 'Show/Hide Favorites Bar', mac: 'Cmd+Shift+B' },
+        { action: 'Browse in Private Window', mac: 'Cmd+Shift+N' },
+        { action: 'Share', mac: 'Cmd+Shift+I' }
+      ],
+      'Safari-Only Features': [
+        { action: 'Show Top Sites', mac: 'Cmd+Opt+1' },
+        { action: 'Show History in Grid', mac: 'Cmd+Opt+2' },
+        { action: 'Mail Link to This Page', mac: 'Cmd+Shift+I' },
+        { action: 'AutoFill Form', mac: 'Cmd+Shift+A' },
+        { action: 'Dismiss Web Notification', mac: 'Opt+Click notification' }
       ]
     }
   },

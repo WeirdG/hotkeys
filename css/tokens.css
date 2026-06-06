@@ -1,0 +1,116 @@
+/* Design Tokens — Dark Theme (default) */
+:root {
+  /* Colors */
+  --color-bg-primary: #0d1117;
+  --color-bg-secondary: #161b22;
+  --color-bg-tertiary: #21262d;
+  --color-bg-elevated: #1c2128;
+  --color-bg-hover: #30363d;
+  --color-bg-active: #388bfd26;
+  --color-bg-kbd: #2d333b;
+  --color-bg-kbd-mod: #1f2429;
+
+  --color-border-default: #30363d;
+  --color-border-muted: #21262d;
+  --color-border-accent: #58a6ff;
+
+  --color-text-primary: #e6edf3;
+  --color-text-secondary: #8b949e;
+  --color-text-tertiary: #6e7681;
+  --color-text-inverse: #0d1117;
+  --color-text-link: #58a6ff;
+
+  --color-accent: #58a6ff;
+  --color-accent-hover: #79c0ff;
+  --color-accent-muted: #388bfd26;
+  --color-success: #3fb950;
+  --color-warning: #d29922;
+  --color-danger: #f85149;
+
+  --color-brand-adobe: #ff0000;
+  --color-brand-adobe-dark: #cc0000;
+  --color-brand-blender: #ea7600;
+  --color-brand-google: #4285f4;
+  --color-brand-microsoft: #0078d4;
+  --color-brand-apple: #a2aaad;
+  --color-brand-vim: #019733;
+  --color-brand-neovim: #57a143;
+  --color-brand-vscode: #007acc;
+
+  /* Typography */
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Cascadia Code", Consolas, monospace;
+
+  --text-xs: 0.6875rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.9375rem;
+  --text-lg: 1.0625rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* Borders */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 3px 6px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-kbd: 0 1px 0 rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+
+  /* Transitions */
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 300ms ease;
+
+  /* Layout */
+  --header-height: 56px;
+  --tab-bar-height: 44px;
+  --max-content-width: 1100px;
+}
+
+/* Light Theme */
+[data-theme="light"] {
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f6f8fa;
+  --color-bg-tertiary: #eaeef2;
+  --color-bg-elevated: #ffffff;
+  --color-bg-hover: #eaeef2;
+  --color-bg-active: #ddf4ff;
+  --color-bg-kbd: #eaeef2;
+  --color-bg-kbd-mod: #d0d7de;
+
+  --color-border-default: #d0d7de;
+  --color-border-muted: #eaeef2;
+  --color-border-accent: #0969da;
+
+  --color-text-primary: #1f2328;
+  --color-text-secondary: #656d76;
+  --color-text-tertiary: #8c959f;
+  --color-text-inverse: #ffffff;
+  --color-text-link: #0969da;
+
+  --color-accent: #0969da;
+  --color-accent-hover: #0550ae;
+  --color-accent-muted: #ddf4ff;
+
+  --shadow-sm: 0 1px 2px rgba(31, 35, 40, 0.08);
+  --shadow-md: 0 3px 6px rgba(31, 35, 40, 0.12);
+  --shadow-lg: 0 8px 24px rgba(31, 35, 40, 0.16);
+  --shadow-kbd: 0 1px 0 rgba(31, 35, 40, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}

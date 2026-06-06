@@ -1,7 +1,7 @@
 // Main Application
 // Keyboard Shortcuts Reference Website
 
-import { products, getProductById, getProductsByCategory, searchShortcuts } from './data.js?v=7';
+import { products, getProductById, getProductsByCategory, searchShortcuts } from './data.js?v=8';
 import { createCategoryNav, setActiveCategory } from './components/categoryNav.js';
 import { createProductTabs, setActiveProduct } from './components/tabBar.js';
 import { createSearchBar } from './components/searchBar.js';

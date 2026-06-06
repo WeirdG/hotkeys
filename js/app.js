@@ -6,6 +6,7 @@ import { createCategoryNav, setActiveCategory } from './components/categoryNav.j
 import { createProductTabs, setActiveProduct } from './components/tabBar.js';
 import { createSearchBar } from './components/searchBar.js';
 import { createShortcutTable } from './components/shortcutTable.js';
+import { initTooltips } from './utils/tooltip.js';
 
 class App {
   constructor() {
@@ -166,6 +167,9 @@ class App {
         this.renderProduct(shortcutTable);
       }
     });
+
+    // Initialize floating key tooltips (avoids CSS overflow clipping)
+    initTooltips();
   }
 
   renderProduct(shortcutTable) {

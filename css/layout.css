@@ -545,27 +545,39 @@ kbd[data-tip] {
   color: var(--color-text-link);
 }
 
-.bmc-link {
+/* Buy Me a Coffee — header pill button */
+.bmc-btn {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 6px 14px;
+  height: 30px;
+  padding: 0 12px;
   border-radius: var(--radius-full);
   background: #ff813f;
   color: #fff !important;
   font-weight: 600;
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
   transition: all var(--transition-fast);
+  line-height: 1;
 }
 
-.bmc-link:hover {
+.bmc-btn:hover {
   background: #e67235;
   transform: translateY(-1px);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 2px 8px rgba(255, 129, 63, 0.35);
 }
 
-.bmc-link svg {
+.bmc-btn svg {
   flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .bmc-text {
+    display: none;
+  }
+  .bmc-btn {
+    padding: 0 8px;
+  }
 }
 
 /* Scrollbar */

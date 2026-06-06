@@ -1,6 +1,6 @@
 // Search Bar Component
 
-import { searchShortcuts } from '../data.js?v=6';
+import { searchShortcuts } from '../data.js?v=7';
 import { highlightMatches } from '../utils/fuzzySearch.js';
 
 export function createSearchBar({ onSearch, onSearchAllToggle }) {

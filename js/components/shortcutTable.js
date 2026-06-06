@@ -1,6 +1,6 @@
 // Shortcut Table Component
 
-import { searchShortcuts, getProductById } from '../data.js?v=6';
+import { searchShortcuts, getProductById } from '../data.js?v=7';
 import { renderKeys, getPlatformColumns, getKeyForPlatform } from '../utils/keyRenderer.js';
 import { highlightMatches, escapeHtml } from '../utils/fuzzySearch.js';
 

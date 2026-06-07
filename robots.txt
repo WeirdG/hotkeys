@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://weirdg.github.io/hotkeys/sitemap.xml

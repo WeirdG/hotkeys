@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://weirdg.github.io/hotkeys/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url><loc>https://weirdg.github.io/hotkeys/#macos</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#microsoft-windows</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#chromeos</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#chromebooks</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#chrome</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#edge</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#firefox</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#opera</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#safari</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#neovim</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#vim</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#visual-studio-code</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#after-effects</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#photoshop</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#premiere-pro</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#blender</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#google-docs</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#google-sheets</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#microsoft-excel</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://weirdg.github.io/hotkeys/#microsoft-word</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>

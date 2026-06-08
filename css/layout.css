@@ -74,6 +74,28 @@ body {
   padding: 0 var(--space-6);
 }
 
+/* Visually hidden (screen reader only) */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Site intro text for SEO and text-HTML ratio */
+.site-intro {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  padding: var(--space-3) 0 0;
+  margin: 0;
+  line-height: 1.6;
+}
+
 /* Category Nav */
 .category-nav {
   display: flex;

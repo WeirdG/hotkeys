@@ -1,7 +1,7 @@
 // Main Application
 // Keyboard Shortcuts Reference Website
 
-import { products, getProductById, getProductsByCategory, searchShortcuts } from './data.js?v=15';
+import { products, getProductById, getProductsByCategory, searchShortcuts } from './data.js';
 import { createCategoryNav, setActiveCategory } from './components/categoryNav.js';
 import { createProductTabs, setActiveProduct } from './components/tabBar.js';
 import { createSearchBar } from './components/searchBar.js';
@@ -170,6 +170,17 @@ class App {
 
     // Initialize floating key tooltips (avoids CSS overflow clipping)
     initTooltips();
+
+    // Back to top button
+    const backToTop = document.getElementById('backToTop');
+    if (backToTop) {
+      window.addEventListener('scroll', () => {
+        backToTop.classList.toggle('visible', window.scrollY > 400);
+      }, { passive: true });
+      backToTop.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
   }
 
   renderProduct(shortcutTable) {

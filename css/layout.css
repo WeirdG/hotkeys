@@ -314,6 +314,12 @@ body {
 /* Shortcuts Content */
 .shortcuts-content {
   padding-bottom: var(--space-12);
+  animation: fadeIn 200ms ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 /* Category Section */
@@ -388,6 +394,10 @@ body {
   letter-spacing: 0.05em;
   border-bottom: 1px solid var(--color-border-default);
   white-space: nowrap;
+  position: sticky;
+  top: 0;
+  background: var(--color-bg-primary);
+  z-index: 1;
 }
 
 .shortcut-table td {
@@ -401,6 +411,15 @@ body {
 }
 
 .shortcut-table tbody tr:hover {
+  background: var(--color-bg-hover);
+}
+
+/* Zebra striping for easier scanning */
+.shortcut-table tbody tr:nth-child(even) {
+  background: var(--color-bg-elevated);
+}
+
+.shortcut-table tbody tr:nth-child(even):hover {
   background: var(--color-bg-hover);
 }
 
@@ -589,7 +608,48 @@ kbd[data-tip] {
   }
 }
 
-/* Scrollbar */
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border-default);
+  color: var(--color-text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all var(--transition-base);
+  z-index: 999;
+  box-shadow: var(--shadow-md);
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background: var(--color-bg-hover);
+  color: var(--color-text-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 480px) {
+  .back-to-top {
+    bottom: 16px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+  }
+}
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -642,6 +702,10 @@ kbd[data-tip] {
   .shortcut-table-wrapper {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    /* Subtle scroll hint gradient on right edge */
+    background:
+      linear-gradient(to right, var(--color-bg-primary) 92%, transparent);
+    background-attachment: local;
   }
 }
 

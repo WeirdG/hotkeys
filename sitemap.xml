@@ -5,24 +5,4 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url><loc>https://hotkeys.cc/#macos</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#microsoft-windows</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#chromeos</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#chromebooks</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#chrome</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#edge</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#firefox</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#opera</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#safari</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#neovim</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#vim</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#visual-studio-code</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#after-effects</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#photoshop</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#premiere-pro</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#blender</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#google-docs</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#google-sheets</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#microsoft-excel</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hotkeys.cc/#microsoft-word</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

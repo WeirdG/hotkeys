@@ -1,0 +1,49 @@
+# Hotkeys.cc — Keyboard Shortcuts Reference
+
+> A searchable, dark-mode keyboard shortcuts reference for 20+ applications across 4 categories.
+
+## Products
+
+### Operating Systems
+- macOS: https://hotkeys.cc/#macos
+- Microsoft Windows: https://hotkeys.cc/#microsoft-windows
+- ChromeOS: https://hotkeys.cc/#chromeos
+- Chromebooks: https://hotkeys.cc/#chromebooks
+
+### Web Browsers
+- Google Chrome: https://hotkeys.cc/#chrome
+- Microsoft Edge: https://hotkeys.cc/#edge
+- Mozilla Firefox: https://hotkeys.cc/#firefox
+- Opera: https://hotkeys.cc/#opera
+- Apple Safari: https://hotkeys.cc/#safari
+
+### Utilities & Tools
+- Neovim: https://hotkeys.cc/#neovim
+- Vim: https://hotkeys.cc/#vim
+- Visual Studio Code: https://hotkeys.cc/#visual-studio-code
+
+### Productivity Software
+- Adobe After Effects: https://hotkeys.cc/#after-effects
+- Adobe Photoshop: https://hotkeys.cc/#photoshop
+- Adobe Premiere Pro: https://hotkeys.cc/#premiere-pro
+- Blender: https://hotkeys.cc/#blender
+- Google Docs: https://hotkeys.cc/#google-docs
+- Google Sheets: https://hotkeys.cc/#google-sheets
+- Microsoft Excel: https://hotkeys.cc/#microsoft-excel
+- Microsoft Word: https://hotkeys.cc/#microsoft-word
+
+## Features
+- Instant search across all shortcuts
+- Dark/light theme toggle
+- Keyboard-navigable tabs (arrow keys)
+- Hover tooltips on key symbols
+- Collapsible shortcut categories
+- Responsive design (desktop, tablet, mobile)
+
+## Key Features
+- 20+ applications covered
+- 900+ keyboard shortcuts
+- Platform-specific shortcuts (Windows, macOS, ChromeOS)
+- Cross-platform shortcuts (Vim, Neovim, Blender)
+- Real-time filtering
+- Zero dependencies — vanilla HTML/CSS/JS

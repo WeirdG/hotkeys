@@ -46,7 +46,7 @@ export function createShortcutTable() {
           <div class="product-icon-large">
             ${product.icon || ''}
           </div>
-          <h1 class="product-name">${product.name}</h1>
+          <h2 class="product-name">${product.name}</h2>
         </div>
         <p class="product-description">${product.description}</p>
         <div class="os-badges">

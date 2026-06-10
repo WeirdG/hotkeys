@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hotkeys.cc/sitemap.xml

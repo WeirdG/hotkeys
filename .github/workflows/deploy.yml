@@ -25,3 +25,14 @@ jobs:
           enable_jekyll: false
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Ping IndexNow
+        run: |
+          for url in \
+            "https://hotkeys.cc/" \
+            "https://hotkeys.cc/privacy.html" \
+            "https://hotkeys.cc/terms.html"; do
+            echo "Pinging IndexNow: $url"
+            curl -s -o /dev/null -w "%{http_code}" \
+              "https://api.indexnow.org/indexnow?url=$url&key=0cb381a8e470474fbe83669e72770814" || true
+          done
